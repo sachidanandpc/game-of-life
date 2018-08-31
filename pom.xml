@@ -496,18 +496,15 @@
         </profile>
     </profiles>
     <distributionManagement>
-   <repository>
-      <id>nexus-snapshots</id>
-      <url>http://localhost:7070/nexus/content/repositories/releases/</url>
-   </repository>
-   <snapshotRepository>
-      <id>nexus-snapshots</id>
-      <url>http://localhost:7070/nexus/content/repositories/snapshots/</url>
-   </snapshotRepository>
-   <site>
-      <id>nexus</id>
-      <name>Nexus Sites</name>
-      <url>dav:http://localhost:7070/nexus</url>
-    </site>
-</distributionManagement>
+           <repository>
+              <id>releases</id>
+              <name>Releases</name>
+              <url>http://localhost:7070/nexus/content/repositories/releases/</url>
+           </repository>
+           <snapshotRepository>
+              <id>snapshots</id>
+                <name>Snapshots</name>
+              <url>http://localhost:7070/nexus/content/repositories/snapshots/</url>
+           </snapshotRepository>
+    </distributionManagement>
 </project>
