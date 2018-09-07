@@ -497,12 +497,12 @@
     </profiles>
        <distributionManagement>
         <repository>
-            <id>releases</id>
+            <id>deployment</id>
             <name>Internal Releases</name>
             <url>http://localhost:5050/repository/SAMPLE-SNAP-REL/</url>
         </repository>
         <snapshotRepository>
-            <id>snapshots</id>
+            <id>deployment</id>
             <name>Internal Snapshot Releases</name>
             <url>http://localhost:5050/repository/SAMPLE-SNAP/</url>
         </snapshotRepository>
